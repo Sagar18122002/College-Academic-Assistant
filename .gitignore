@@ -1,0 +1,42 @@
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Python virtual environment
+.venv/
+venv/
+env/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# IDE settings
+.vscode/
+.idea/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Test and coverage files
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Generated vector databases
+chroma_db/
+faiss_index/
+vectorstore/
+
+# Generated evaluation output
+evaluation/evaluation_results.csv
